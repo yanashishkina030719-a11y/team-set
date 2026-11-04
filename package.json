@@ -1,0 +1,17 @@
+{
+  "name": "team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.10",
+    "@babel/preset-env": "^8.0.7",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2"
+  }
+}
